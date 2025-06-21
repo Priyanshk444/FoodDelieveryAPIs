@@ -1,0 +1,42 @@
+.cart-page {
+    background-color: #fff8f0;
+    min-height: 100vh;
+  }
+  
+  .cart-table th {
+    background-color: #d90429;
+    color: white;
+    font-weight: 600;
+    border: none;
+  }
+  
+  .cart-table td {
+    vertical-align: middle;
+    border-top: none;
+  }
+  
+  .remove-btn {
+    color: #ef233c;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  .remove-btn:hover {
+    text-decoration: underline;
+  }
+  
+  .summary-card {
+    background-color: white;
+    border: 1px solid #ddd;
+  }
+  
+  .checkout-btn {
+    background-color: #d90429;
+    border: none;
+    font-weight: 500;
+  }
+  
+  .checkout-btn:hover {
+    background-color: #ef233c;
+  }
+  
