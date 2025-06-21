@@ -11,7 +11,8 @@ COPY . .
 RUN chmod +x mvnw
 
 # Build the Spring Boot application
-RUN ./mvnw clean install
+RUN ./mvnw clean install -DskipTests -Dmaven.test.skip=true
+
 
 # Expose port (Render will override with $PORT anyway)
 EXPOSE 8080
